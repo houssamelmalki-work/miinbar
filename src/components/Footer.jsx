@@ -16,6 +16,14 @@ export default function Footer() {
     { key: "world",    path: "/category/world" },
   ];
 
+  // URLs des réseaux sociaux (à remplacer par vos vraies URLs)
+  const socialLinks = {
+    facebook: "https://facebook.com/minbar",
+    twitter: "https://twitter.com/minbar",
+    instagram: "https://instagram.com/minbar",
+    youtube: "https://youtube.com/minbar"
+  };
+
   return (
     <footer className="bg-[#050505] border-t border-white/5 pt-8 sm:pt-12 pb-4 sm:pb-6 px-4">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 mb-6 sm:mb-8 md:mb-10">
@@ -27,12 +35,26 @@ export default function Footer() {
             {t.footer.description}
           </p>
           <div className="flex gap-4 mt-4 sm:mt-5 justify-center sm:justify-start">
-            {[FaFacebook, FaTwitter, FaInstagram, FaYoutube].map((Icon, i) => (
-              <a key={i} href="#"
-                className="text-mist/30 hover:text-pink transition-colors hover:-translate-y-1 duration-200 block">
-                <Icon size={18} className="sm:w-5 sm:h-5" />
-              </a>
-            ))}
+            <a href={socialLinks.facebook} target="_blank" rel="noopener noreferrer"
+              className="text-mist/30 hover:text-pink transition-colors hover:-translate-y-1 duration-200 block"
+              aria-label="Facebook">
+              <FaFacebook size={18} className="sm:w-5 sm:h-5" />
+            </a>
+            <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer"
+              className="text-mist/30 hover:text-pink transition-colors hover:-translate-y-1 duration-200 block"
+              aria-label="Twitter">
+              <FaTwitter size={18} className="sm:w-5 sm:h-5" />
+            </a>
+            <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer"
+              className="text-mist/30 hover:text-pink transition-colors hover:-translate-y-1 duration-200 block"
+              aria-label="Instagram">
+              <FaInstagram size={18} className="sm:w-5 sm:h-5" />
+            </a>
+            <a href={socialLinks.youtube} target="_blank" rel="noopener noreferrer"
+              className="text-mist/30 hover:text-pink transition-colors hover:-translate-y-1 duration-200 block"
+              aria-label="YouTube">
+              <FaYoutube size={18} className="sm:w-5 sm:h-5" />
+            </a>
           </div>
         </div>
 
@@ -70,8 +92,8 @@ export default function Footer() {
       <div className="border-t border-white/5 pt-4 sm:pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-3 text-mist/30 text-[10px] sm:text-xs font-mono px-2">
         <p className="text-center sm:text-left">© {new Date().getFullYear()} منبر · Minbar. {t.footer.rights}</p>
         <div className="flex gap-4 sm:gap-6">
-          <a href="#" className="hover:text-pink transition-colors">{t.footer.privacy}</a>
-          <a href="#" className="hover:text-pink transition-colors">{t.footer.terms}</a>
+          <Link to="/privacy" className="hover:text-pink transition-colors">{t.footer.privacy}</Link>
+          <Link to="/terms" className="hover:text-pink transition-colors">{t.footer.terms}</Link>
         </div>
       </div>
     </footer>

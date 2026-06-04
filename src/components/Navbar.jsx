@@ -11,7 +11,7 @@ const langLabels = {
 };
 
 const Navbar = () => {
-  const { lang, setLang, t, isRTL } = useLang();
+  const { lang, setLang, t  } = useLang();
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropOpen, setDropOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
