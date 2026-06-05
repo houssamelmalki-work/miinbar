@@ -73,7 +73,7 @@ const en = {
     error: "⚠️ An error occurred. Please try again.",
     address: "Salé, Morocco",
     phone: "+212 7 07 44 85 22",
-    emailContact: "contact@minbar.press",
+    emailContact: "contactminbar@gmail.com",
   },
 
   footer: {

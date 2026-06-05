@@ -13,9 +13,9 @@ export default function ContactPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setStatus("sending");
-    emailjs.send("service_nuifjuq", "template_xch32hm",
+    emailjs.send("service_67tywgi", "template_5et7vbu",
       { from_name: form.name, from_email: form.email, subject: form.subject, message: form.message },
-      "VHVjTqH_ir5axMc23"
+      "rtP34a9hac_q0w-p-"
     ).then(() => {
       setStatus("success");
       setForm({ name: "", email: "", subject: "", message: "" });
