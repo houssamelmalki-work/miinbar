@@ -60,7 +60,7 @@ const en = {
     title: "Get in Touch",
     subtitle: "Write to us and we'll get back to you shortly",
     name: "Full Name",
-    namePlaceholder: "John Doe",
+    namePlaceholder: "HOUSSAM EL MALKI",
     email: "Email Address",
     emailPlaceholder: "you@example.com",
     subject: "Subject",

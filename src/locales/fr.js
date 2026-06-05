@@ -60,7 +60,7 @@ const fr = {
     title: "Contactez-nous",
     subtitle: "Écrivez-nous, nous vous répondrons rapidement",
     name: "Nom complet",
-    namePlaceholder: "Jean Dupont",
+    namePlaceholder: "HOUSSAM EL MALKI",
     email: "Adresse e-mail",
     emailPlaceholder: "vous@exemple.com",
     subject: "Sujet",

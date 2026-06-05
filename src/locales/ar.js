@@ -60,7 +60,7 @@ const ar = {
     title: "تواصل معنا",
     subtitle: "راسلنا وسنرد عليك في أقرب وقت",
     name: "الاسم الكامل",
-    namePlaceholder: "محمد الأمين",
+    namePlaceholder: "حسام المالكي",
     email: "البريد الإلكتروني",
     emailPlaceholder: "example@email.com",
     subject: "الموضوع",
