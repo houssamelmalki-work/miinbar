@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 import ar from "../locales/ar";
 import fr from "../locales/fr";
 import en from "../locales/en";
@@ -11,11 +11,15 @@ export function LanguageProvider({ children }) {
   const t = texts[lang];
   const isRTL = lang === "ar";
 
+  // ✅ Applique dir sur le html directement
+  useEffect(() => {
+    document.documentElement.dir = isRTL ? "rtl" : "ltr";
+    document.documentElement.lang = lang;
+  }, [lang, isRTL]);
+
   return (
     <LanguageContext.Provider value={{ lang, setLang, t, isRTL }}>
-      <div dir={isRTL ? "rtl" : "ltr"} lang={lang}>
-        {children}
-      </div>
+      {children}
     </LanguageContext.Provider>
   );
 }
