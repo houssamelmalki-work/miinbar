@@ -84,8 +84,11 @@ module.exports = {
           '-webkit-box-orient': 'vertical',
           '-webkit-line-clamp': '3',
         },
+        
       }
-      addUtilities(newUtilities, ['responsive'])
+      addUtilities(newUtilities, ['responsive'],
+        require('tailwindcss-rtl')
+      )
     }
   ],
 }

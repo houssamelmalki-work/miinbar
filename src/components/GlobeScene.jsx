@@ -4,7 +4,12 @@ import { useLang } from "../context/LanguageContext";
 import travelVideo from "../assets/travel.mp4";
 
 export default function GlobeScene() {
-  const { t } = useLang();
+  const { t, isRTL } = useLang();
+
+  // Villes avec adaptation RTL
+  const cities = isRTL 
+    ? ["الرباط", "باريس", "نيويورك", "طوكيو", "القاهرة"]
+    : ["Rabat", "Paris", "New York", "Tokyo", "Cairo"];
 
   return (
     <div className="relative w-full h-[100dvh] overflow-hidden">
@@ -23,11 +28,11 @@ export default function GlobeScene() {
       {/* Overlay sombre */}
       <div className="absolute inset-0 bg-black/55 z-10" />
 
-      {/* Contenu centré */}
+      {/* Contenu centré - Adaptation RTL */}
       <div className="relative z-20 h-full flex flex-col items-center justify-center
                       text-center px-4">
-
-        {/* Titre */}
+        
+        {/* Titre - pas de changement majeur */}
         <h1 className="font-arabic font-bold text-gold leading-tight
                        text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
                        drop-shadow-lg mb-3 sm:mb-4">
@@ -35,9 +40,10 @@ export default function GlobeScene() {
         </h1>
 
         {/* Sous-titre */}
-        <p className="font-arabic text-mist/90
+        <p className={`font-arabic text-mist/90
                       text-sm sm:text-base md:text-lg lg:text-xl
-                      mb-6 sm:mb-8 max-w-[90%] sm:max-w-xl">
+                      mb-6 sm:mb-8 max-w-[90%] sm:max-w-xl
+                      ${isRTL ? "tracking-normal" : ""}`}>
           {t.hero.subtitle}
         </p>
 
@@ -52,24 +58,24 @@ export default function GlobeScene() {
           {t.hero.cta}
         </Link>
 
-        {/* Points villes - caché sur très petit écran */}
+        {/* Points villes - avec adaptation RTL */}
         <div className="hidden sm:flex absolute bottom-16 left-0 right-0
                         justify-center gap-4 sm:gap-5 md:gap-6 flex-wrap px-4">
-          {["الرباط", "باريس", "نيويورك", "طوكيو", "القاهرة"].map((city, i) => (
+          {cities.map((city, i) => (
             <span key={i}
-              className="flex items-center gap-1.5 text-mist/60 font-mono
-                         text-xs sm:text-sm">
+              className={`flex items-center gap-1.5 text-mist/60 font-mono text-xs sm:text-sm
+                         ${isRTL ? "flex-row-reverse" : ""}`}>
               <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-pink
                                shadow-sm shadow-pink/50 flex-shrink-0" />
-              {city}
+              <span className={isRTL ? "font-arabic" : ""}>{city}</span>
             </span>
           ))}
         </div>
 
-        {/* Hint scroll - caché sur mobile */}
+        {/* Hint scroll - adaptation RTL */}
         <div className="hidden sm:flex absolute bottom-6 left-0 right-0 flex-col items-center gap-1">
           <p className="text-mist/40 font-mono text-[9px] sm:text-xs tracking-widest">
-            SCROLL
+            {isRTL ? "تمرير" : "SCROLL"}
           </p>
           <div className="w-px h-4 sm:h-6 bg-gradient-to-b from-mist/40 to-transparent" />
         </div>
