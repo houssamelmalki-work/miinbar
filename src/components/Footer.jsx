@@ -40,7 +40,7 @@ export default function Footer() {
               aria-label="Facebook">
               <FaFacebook size={18} className="sm:w-5 sm:h-5" />
             </a>
-            <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer"
+            <a href={socialLinks.x} target="_blank" rel="noopener noreferrer"
               className="text-mist/30 hover:text-pink transition-colors hover:-translate-y-1 duration-200 block"
               aria-label="Twitter">
               <FaTwitter size={18} className="sm:w-5 sm:h-5" />
