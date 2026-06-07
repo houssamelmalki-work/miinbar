@@ -1,4 +1,185 @@
 export const articles = [
+   {
+  id: 7,
+  category: "sports",
+  image: " https://i.ibb.co/0jq1Mkvx/post-minbar-jpg.jpg",
+  date: "2026-06-07",
+  time: "15:11",
+  author: {
+    ar: "خولة دحو الإدريسي، أيوب بولغمان",
+    fr: "Khawla Daho, Ayoub Boulghman, ",
+    en: "Khawla Daho, Ayoub Boulghman, ",
+  },
+  readTime: 8,
+  featured: true,
+  title: {
+    ar: "التنظيم المشترك لكأس العالم 2030 من منظور التنمية الشاملة المستدامة",
+    fr: "La Coupe du Monde 2030 : une opportunité de développement durable pour le Maroc",
+    en: "2030 World Cup: A Sustainable Development Opportunity for Morocco",
+  },
+  intro: {
+    ar: "المغرب لا يجهّز فقط لمونديال 2030، بل يسرّع مشروعاً تنموياً طويل الأمد بميزانية إجمالية تبلغ 52 مليار درهم.",
+    fr: "Le Maroc ne se prépare pas seulement pour la Coupe du Monde 2030, mais accélère un projet de développement à long terme avec un budget global de 52 milliards de dirhams.",
+    en: "Morocco is not only preparing for the 2030 World Cup, but accelerating a long-term development project with a total budget of 52 billion dirhams.",
+  },
+  content: {
+    ar: `ليس هذا الحلم وليد اليوم، فقد راود المملكة منذ التسعينيات، ثم أصبح الفوز بهذا التنظيم المشترك حقيقة تتجاوز دائرة الملاعب الضيقة، لتشكّل أحد معالم التنمية المتعددة الصور والأبعاد.
+
+الغلاف المالي لمونديال 2030
+
+تُصنَّف المبالغ المرصودة لتنظيم كأس العالم 2030 ضمن إطار الاستثمارات الاستراتيجية طويلة المدى، وليس مجرد نفقات ظرفية مرتبطة بتظاهرة رياضية. وقد تم تقديم تقدير مالي إجمالي يبلغ حوالي 52 مليار درهم.
+
+خريطة الاستثمارات الرياضية والبنيات التحتية
+
+تم اختيار ست مدن مغربية لاحتضان مباريات كأس العالم 2030، مع برنامج متكامل يشمل بناء ملاعب جديدة وتأهيل أخرى وفق معايير الفيفا الدولية:
+
+- الدار البيضاء: 115,000 مقعد — بناء جديد
+- الرباط: 69,500 مقعد — إعادة تأهيل عميق
+- الدار البيضاء (محمد الخامس): 67,000 مقعد
+- طنجة، مراكش، أكادير: بين 45,000 و65,000 مقعد
+
+توزيع الميزانية
+
+- 33% للنقل والبنية التحتية — 17 مليار درهم
+- 33% لتشييد وتجديد الملاعب — 17 مليار درهم
+- 19% للتقطيع والخدمات — 10 مليارات درهم
+- 15% لمراكز التدريب — 8 مليارات درهم
+- 80% من الميزانية موجهة للبنية التحتية: نقل حضري وطرقي حديث وتطوير المنظومة الصحية
+
+فرص الشغل
+
+يُرتقب أن يساهم تنظيم مونديال 2030 في خلق ما بين 100,000 و200,000 فرصة عمل سنوياً في قطاعات البناء والنقل والسياحة والخدمات.
+
+السياحة والتنمية
+
+سجلت المملكة حوالي 19.8 مليون سائح في آخر الإحصائيات، مع هدف بلوغ 26 مليون سائح سنوياً بحلول 2030.
+
+مسيرة ثلاثة عقود نحو الحلم
+
+- 1994: أول ترشيح في التاريخ — خسارة لصالح الولايات المتحدة
+- 1998: الترشيح الثاني — خسارة لصالح فرنسا
+- 2006: الترشيح الثالث — خسارة لصالح ألمانيا
+- 2010: الترشيح الرابع — خسارة لصالح جنوب أفريقيا
+- 2018: الترشيح الخامس — خسارة لصالح الملف الأمريكي
+- 2022: نجم المونديال يُلهم الأفارقة — نصف نهائي تاريخي
+- أكتوبر 2023: اللحظة التاريخية — الفيفا يمنح المغرب تنظيم مونديال 2030
+- 2025: مؤسسة المغرب 2030 — الإطار القانوني
+- 2030: الموعد مع التاريخ — كأس العالم 100 في تاريخه
+
+المصادر: تقارير حكومية مغربية + البنك الدولي + UNWTO`,
+
+    fr: `Ce rêve n'est pas né d'aujourd'hui. Il a habité le Royaume depuis les années 1990, avant que l'obtention de cette co-organisation ne devienne une réalité dépassant le seul cadre des stades.
+
+Le budget de la Coupe du Monde 2030
+
+Les fonds alloués à l'organisation de la Coupe du Monde 2030 s'inscrivent dans le cadre d'investissements stratégiques à long terme, et non de simples dépenses ponctuelles liées à un événement sportif. Une enveloppe financière globale d'environ 52 milliards de dirhams a été présentée.
+
+Carte des investissements sportifs et infrastructurels
+
+Six villes marocaines ont été sélectionnées pour accueillir les matchs de la Coupe du Monde 2030 :
+
+- Casablanca : 115 000 places — nouvelle construction
+- Rabat : 69 500 places — réhabilitation approfondie
+- Casablanca (Mohammed V) : 67 000 places
+- Tanger, Marrakech, Agadir : entre 45 000 et 65 000 places
+
+Répartition du budget
+
+- 33% Transport et infrastructure — 17 milliards DH
+- 33% Construction et rénovation des stades — 17 milliards DH
+- 19% Logistique et services — 10 milliards DH
+- 15% Centres d'entraînement — 8 milliards DH
+- 80% du budget orienté vers les infrastructures
+
+Opportunités d'emploi
+
+On s'attend à ce que l'organisation du Mondial 2030 crée entre 100 000 et 200 000 emplois par an dans les secteurs de la construction, du transport, du tourisme et des services.
+
+Tourisme et développement
+
+Le Royaume a enregistré environ 19,8 millions de touristes, avec un objectif d'atteindre 26 millions par an d'ici 2030.
+
+Sources : Rapports gouvernementaux marocains + Banque mondiale + UNWTO`,
+
+    en: `This dream was not born today. It has inhabited the Kingdom since the 1990s, before the award of this co-organization became a reality that goes beyond the narrow circle of stadiums.
+
+The 2030 World Cup Budget
+
+The funds allocated for organizing the 2030 World Cup fall within the framework of long-term strategic investments, not mere one-off expenses linked to a sporting event. A total financial envelope of approximately 52 billion dirhams was presented.
+
+Map of Sports and Infrastructure Investments
+
+Six Moroccan cities were selected to host the 2030 World Cup matches:
+
+- Casablanca: 115,000 seats — new construction
+- Rabat: 69,500 seats — deep rehabilitation
+- Casablanca (Mohammed V): 67,000 seats
+- Tangier, Marrakech, Agadir: between 45,000 and 65,000 seats
+
+Budget Distribution
+
+- 33% Transport and infrastructure — 17 billion DH
+- 33% Stadium construction and renovation — 17 billion DH
+- 19% Logistics and services — 10 billion DH
+- 15% Training centers — 8 billion DH
+- 80% of budget directed toward infrastructure
+
+Employment Opportunities
+
+The organization of the 2030 World Cup is expected to create between 100,000 and 200,000 job opportunities annually in construction, transport, tourism, and services.
+
+Tourism and Development
+
+The Kingdom recorded approximately 19.8 million tourists, with a target of reaching 26 million tourists annually by 2030.
+
+Sources: Moroccan government reports + World Bank + UNWTO`,
+  },
+},
+  {
+    id: 4,
+    category: "tech",
+    image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&q=80&w=800",
+    date: "2026-06-03",
+    time: "14:00",
+    author: { ar: "نور الدين العمراني", fr: "Noureddine Amrani", en: "Noureddine Amrani" },
+    readTime: 6,
+    featured: true,
+    title: {
+      ar: "المغرب يطلق أول مركز وطني للذكاء الاصطناعي بشراكة دولية",
+      fr: "Le Maroc lance son premier centre national d'intelligence artificielle en partenariat international",
+      en: "Morocco launches first national AI center through international partnership",
+    },
+    intro: {
+      ar: "أطلق المغرب مركزه الوطني الأول للذكاء الاصطناعي في إطار شراكة استراتيجية مع كبرى الشركات التقنية العالمية، بهدف تكوين 10000 مهندس متخصص بحلول 2028.",
+      fr: "Le Maroc a lancé son premier centre national d'intelligence artificielle dans le cadre d'un partenariat stratégique avec les grands acteurs technologiques mondiaux.",
+      en: "Morocco launched its first national artificial intelligence center as part of a strategic partnership with major global technology companies.",
+    },
+    content: {
+      ar: `أطلق المغرب رسمياً مركزه الوطني للذكاء الاصطناعي "المغرب AI" بالرباط، في احتفالية حضرها مسؤولون حكوميون وممثلون عن كبرى الشركات التقنية العالمية.
+
+يهدف المركز إلى تكوين 10000 مهندس ومتخصص في مجال الذكاء الاصطناعي بحلول عام 2028، عبر برامج تدريبية متخصصة بالشراكة مع جامعات دولية مرموقة.
+
+وتشمل الشراكات الاستراتيجية المُبرمة شركات عالمية رائدة في مجال التكنولوجيا، التي ستوفر البنية التحتية التقنية والخبرات المتخصصة.
+
+وأكد المسؤولون أن المركز سيركز على تطوير تطبيقات ذكاء اصطناعي ملائمة للسياق المحلي في مجالات الصحة والتعليم والفلاحة والحوكمة.
+
+كما تضمن الإطار التنظيمي الجديد ضمانات صارمة لأخلاقيات الذكاء الاصطناعي وحماية البيانات الشخصية للمواطنين.`,
+      fr: `Le Maroc a officiellement lancé son centre national d'intelligence artificielle "Maroc AI" à Rabat, lors d'une cérémonie réunissant des responsables gouvernementaux et des représentants des grandes entreprises technologiques mondiales.
+
+Le centre vise à former 10 000 ingénieurs et spécialistes en IA d'ici 2028, via des programmes de formation spécialisés en partenariat avec des universités internationales de renom.
+
+Les partenariats stratégiques conclus incluent des entreprises technologiques mondiales leaders, qui fourniront l'infrastructure technique et les expertises spécialisées.
+
+Les responsables ont confirmé que le centre se concentrera sur le développement d'applications IA adaptées au contexte local dans les domaines de la santé, de l'éducation, de l'agriculture et de la gouvernance.`,
+      en: `Morocco officially launched its national artificial intelligence center "Maroc AI" in Rabat, at a ceremony attended by government officials and representatives from major global technology companies.
+
+The center aims to train 10,000 AI engineers and specialists by 2028, through specialized training programs in partnership with prestigious international universities.
+
+The strategic partnerships concluded include leading global technology companies, which will provide technical infrastructure and specialized expertise.
+
+Officials confirmed the center will focus on developing AI applications adapted to the local context in health, education, agriculture, and governance sectors.`,
+    },
+  },
   {
     id: 1,
     category: "politics",
@@ -91,100 +272,7 @@ The report also highlights the growth of the services and tourism sector, with t
 Regarding inflation, the central bank confirmed it is on track toward the 2% target, relying on cautious monetary policy.`,
     },
   },
-  {
-    id: 3,
-    category: "sports",
-    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=800",
-    date: "2026-06-03",
-    time: "22:45",
-    author: { ar: "يوسف الحسناوي", fr: "Youssef Hassnaoui", en: "Youssef Hassnaoui" },
-    readTime: 3,
-    featured: false,
-    title: {
-      ar: "المنتخب الوطني يتأهل لنصف نهائي كأس الأمم الأفريقية بفوز تاريخي",
-      fr: "L'équipe nationale se qualifie pour les demi-finales de la CAN avec une victoire historique",
-      en: "National team qualifies for AFCON semi-finals with historic victory",
-    },
-    intro: {
-      ar: "حقق المنتخب الوطني المغربي إنجازاً تاريخياً بتأهله إلى نصف نهائي كأس الأمم الأفريقية بعد فوز مثير على منتخب السنغال بنتيجة 3-1.",
-      fr: "L'équipe nationale marocaine a réalisé un exploit historique en se qualifiant pour les demi-finales de la CAN après une victoire palpitante face au Sénégal 3-1.",
-      en: "The Moroccan national team achieved a historic feat by qualifying for the AFCON semi-finals after a thrilling 3-1 victory over Senegal.",
-    },
-    content: {
-      ar: `كتب المنتخب الوطني المغربي صفحة جديدة في تاريخ الكرة الأفريقية، بتحقيقه فوزاً مثيراً على نظيره السنغالي بثلاثة أهداف مقابل هدف واحد، ليتأهل بذلك إلى الدور قبل النهائي لكأس الأمم الأفريقية.
-
-افتتح المغرب التسجيل في الدقيقة الثانية عشرة بهدف رائع من تنفيذ النجم البارز، قبل أن يضاعف التفوق في الشوط الثاني بهدفين إضافيين.
-
-وغرق الجمهور المغربي في موجة من الفرح والاحتفال، حيث اكتظت الساحات العامة والمقاهي في مختلف المدن المغربية بالمتفرجين.
-
-وسيواجه المنتخب الوطني في الدور نصف النهائي المنتخب المصري الذي تأهل بدوره بفوز مقنع على نظيره الغاني.
-
-وأكد المدرب الوطني أن الفريق في أحسن حالاته، مشيداً بروح الجماعة والإصرار الذي أبداه اللاعبون طوال البطولة.`,
-      fr: `L'équipe nationale marocaine a écrit une nouvelle page de l'histoire du football africain, en remportant une victoire retentissante face au Sénégal trois buts à un, se qualifiant ainsi pour les demi-finales de la CAN.
-
-Le Maroc a ouvert le score à la 12e minute par un but magnifique, avant de doubler la mise en seconde période avec deux buts supplémentaires.
-
-Le public marocain a explosé de joie, les places publiques et cafés de toutes les villes marocaines étant bondés de supporters.
-
-L'équipe nationale affrontera en demi-finale l'Égypte, qui s'est également qualifiée avec une victoire convaincante face au Ghana.
-
-Le sélectionneur national a confirmé que l'équipe est dans sa meilleure forme, saluant l'esprit collectif et la détermination des joueurs.`,
-      en: `The Moroccan national team wrote a new page in African football history, achieving a resounding victory over Senegal three goals to one, qualifying for the AFCON semi-finals.
-
-Morocco opened the scoring in the 12th minute with a magnificent goal, before doubling the lead in the second half with two additional goals.
-
-The Moroccan public erupted in joy, with public squares and cafes in all Moroccan cities packed with supporters.
-
-The national team will face Egypt in the semi-finals, who also qualified with a convincing victory over Ghana.
-
-The national coach confirmed the team is in its best form, praising the team spirit and determination shown by the players throughout the tournament.`,
-    },
-  },
-  {
-    id: 4,
-    category: "tech",
-    image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&q=80&w=800",
-    date: "2026-06-03",
-    time: "14:00",
-    author: { ar: "نور الدين العمراني", fr: "Noureddine Amrani", en: "Noureddine Amrani" },
-    readTime: 6,
-    featured: true,
-    title: {
-      ar: "المغرب يطلق أول مركز وطني للذكاء الاصطناعي بشراكة دولية",
-      fr: "Le Maroc lance son premier centre national d'intelligence artificielle en partenariat international",
-      en: "Morocco launches first national AI center through international partnership",
-    },
-    intro: {
-      ar: "أطلق المغرب مركزه الوطني الأول للذكاء الاصطناعي في إطار شراكة استراتيجية مع كبرى الشركات التقنية العالمية، بهدف تكوين 10000 مهندس متخصص بحلول 2028.",
-      fr: "Le Maroc a lancé son premier centre national d'intelligence artificielle dans le cadre d'un partenariat stratégique avec les grands acteurs technologiques mondiaux.",
-      en: "Morocco launched its first national artificial intelligence center as part of a strategic partnership with major global technology companies.",
-    },
-    content: {
-      ar: `أطلق المغرب رسمياً مركزه الوطني للذكاء الاصطناعي "المغرب AI" بالرباط، في احتفالية حضرها مسؤولون حكوميون وممثلون عن كبرى الشركات التقنية العالمية.
-
-يهدف المركز إلى تكوين 10000 مهندس ومتخصص في مجال الذكاء الاصطناعي بحلول عام 2028، عبر برامج تدريبية متخصصة بالشراكة مع جامعات دولية مرموقة.
-
-وتشمل الشراكات الاستراتيجية المُبرمة شركات عالمية رائدة في مجال التكنولوجيا، التي ستوفر البنية التحتية التقنية والخبرات المتخصصة.
-
-وأكد المسؤولون أن المركز سيركز على تطوير تطبيقات ذكاء اصطناعي ملائمة للسياق المحلي في مجالات الصحة والتعليم والفلاحة والحوكمة.
-
-كما تضمن الإطار التنظيمي الجديد ضمانات صارمة لأخلاقيات الذكاء الاصطناعي وحماية البيانات الشخصية للمواطنين.`,
-      fr: `Le Maroc a officiellement lancé son centre national d'intelligence artificielle "Maroc AI" à Rabat, lors d'une cérémonie réunissant des responsables gouvernementaux et des représentants des grandes entreprises technologiques mondiales.
-
-Le centre vise à former 10 000 ingénieurs et spécialistes en IA d'ici 2028, via des programmes de formation spécialisés en partenariat avec des universités internationales de renom.
-
-Les partenariats stratégiques conclus incluent des entreprises technologiques mondiales leaders, qui fourniront l'infrastructure technique et les expertises spécialisées.
-
-Les responsables ont confirmé que le centre se concentrera sur le développement d'applications IA adaptées au contexte local dans les domaines de la santé, de l'éducation, de l'agriculture et de la gouvernance.`,
-      en: `Morocco officially launched its national artificial intelligence center "Maroc AI" in Rabat, at a ceremony attended by government officials and representatives from major global technology companies.
-
-The center aims to train 10,000 AI engineers and specialists by 2028, through specialized training programs in partnership with prestigious international universities.
-
-The strategic partnerships concluded include leading global technology companies, which will provide technical infrastructure and specialized expertise.
-
-Officials confirmed the center will focus on developing AI applications adapted to the local context in health, education, agriculture, and governance sectors.`,
-    },
-  },
+ 
   {
     id: 5,
     category: "culture",
@@ -269,6 +357,55 @@ The report highlights Morocco's success in raising the school enrollment rate to
 It also praises the Kingdom's energy transition, with renewable energies now representing more than 45% of the national electricity mix, with ambitions to reach 52% by 2030.
 
 However, the report notes persistent challenges, particularly regional disparities and the need to accelerate digital transformation in rural areas.`,
+    },
+  },
+  {
+    id: 3,
+    category: "sports",
+    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=800",
+    date: "2026-06-03",
+    time: "22:45",
+    author: { ar: "يوسف الحسناوي", fr: "Youssef Hassnaoui", en: "Youssef Hassnaoui" },
+    readTime: 3,
+    featured: false,
+    title: {
+      ar: "المنتخب الوطني يتأهل لنصف نهائي كأس الأمم الأفريقية بفوز تاريخي",
+      fr: "L'équipe nationale se qualifie pour les demi-finales de la CAN avec une victoire historique",
+      en: "National team qualifies for AFCON semi-finals with historic victory",
+    },
+    intro: {
+      ar: "حقق المنتخب الوطني المغربي إنجازاً تاريخياً بتأهله إلى نصف نهائي كأس الأمم الأفريقية بعد فوز مثير على منتخب السنغال بنتيجة 3-1.",
+      fr: "L'équipe nationale marocaine a réalisé un exploit historique en se qualifiant pour les demi-finales de la CAN après une victoire palpitante face au Sénégal 3-1.",
+      en: "The Moroccan national team achieved a historic feat by qualifying for the AFCON semi-finals after a thrilling 3-1 victory over Senegal.",
+    },
+    content: {
+      ar: `كتب المنتخب الوطني المغربي صفحة جديدة في تاريخ الكرة الأفريقية، بتحقيقه فوزاً مثيراً على نظيره السنغالي بثلاثة أهداف مقابل هدف واحد، ليتأهل بذلك إلى الدور قبل النهائي لكأس الأمم الأفريقية.
+
+افتتح المغرب التسجيل في الدقيقة الثانية عشرة بهدف رائع من تنفيذ النجم البارز، قبل أن يضاعف التفوق في الشوط الثاني بهدفين إضافيين.
+
+وغرق الجمهور المغربي في موجة من الفرح والاحتفال، حيث اكتظت الساحات العامة والمقاهي في مختلف المدن المغربية بالمتفرجين.
+
+وسيواجه المنتخب الوطني في الدور نصف النهائي المنتخب المصري الذي تأهل بدوره بفوز مقنع على نظيره الغاني.
+
+وأكد المدرب الوطني أن الفريق في أحسن حالاته، مشيداً بروح الجماعة والإصرار الذي أبداه اللاعبون طوال البطولة.`,
+      fr: `L'équipe nationale marocaine a écrit une nouvelle page de l'histoire du football africain, en remportant une victoire retentissante face au Sénégal trois buts à un, se qualifiant ainsi pour les demi-finales de la CAN.
+
+Le Maroc a ouvert le score à la 12e minute par un but magnifique, avant de doubler la mise en seconde période avec deux buts supplémentaires.
+
+Le public marocain a explosé de joie, les places publiques et cafés de toutes les villes marocaines étant bondés de supporters.
+
+L'équipe nationale affrontera en demi-finale l'Égypte, qui s'est également qualifiée avec une victoire convaincante face au Ghana.
+
+Le sélectionneur national a confirmé que l'équipe est dans sa meilleure forme, saluant l'esprit collectif et la détermination des joueurs.`,
+      en: `The Moroccan national team wrote a new page in African football history, achieving a resounding victory over Senegal three goals to one, qualifying for the AFCON semi-finals.
+
+Morocco opened the scoring in the 12th minute with a magnificent goal, before doubling the lead in the second half with two additional goals.
+
+The Moroccan public erupted in joy, with public squares and cafes in all Moroccan cities packed with supporters.
+
+The national team will face Egypt in the semi-finals, who also qualified with a convincing victory over Ghana.
+
+The national coach confirmed the team is in its best form, praising the team spirit and determination shown by the players throughout the tournament.`,
     },
   },
 ];
