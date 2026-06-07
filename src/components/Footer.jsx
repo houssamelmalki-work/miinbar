@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { useLang } from "../context/LanguageContext";
 import logo from "../assets/logo_minbar.png";
 
@@ -18,10 +18,9 @@ export default function Footer() {
 
   // URLs des réseaux sociaux (à remplacer par vos vraies URLs)
   const socialLinks = {
-    facebook: "https://facebook.com/minbar",
-    twitter: "https://twitter.com/minbar",
-    instagram: "https://instagram.com/minbar",
-    youtube: "https://youtube.com/minbar"
+    facebook: "https://www.facebook.com/profile.php?id=61590729868724",
+    instagram: "https://www.instagram.com/minbar_maroc",
+    youtube: "https://www.youtube.com/@minbarmaroc"
   };
 
   return (
@@ -40,11 +39,7 @@ export default function Footer() {
               aria-label="Facebook">
               <FaFacebook size={18} className="sm:w-5 sm:h-5" />
             </a>
-            <a href={socialLinks.x} target="_blank" rel="noopener noreferrer"
-              className="text-mist/30 hover:text-pink transition-colors hover:-translate-y-1 duration-200 block"
-              aria-label="Twitter">
-              <FaTwitter size={18} className="sm:w-5 sm:h-5" />
-            </a>
+            
             <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer"
               className="text-mist/30 hover:text-pink transition-colors hover:-translate-y-1 duration-200 block"
               aria-label="Instagram">

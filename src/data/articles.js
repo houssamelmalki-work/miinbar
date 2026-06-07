@@ -141,7 +141,7 @@ Sources: Moroccan government reports + World Bank + UNWTO`,
     image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&q=80&w=800",
     date: "2026-06-03",
     time: "14:00",
-    author: { ar: "نور الدين العمراني", fr: "Noureddine Amrani", en: "Noureddine Amrani" },
+    author: { ar: "حسام المالكي", fr: "Houssam El Malki", en: "Houssam El Malki" },
     readTime: 6,
     featured: true,
     title: {
@@ -186,7 +186,7 @@ Officials confirmed the center will focus on developing AI applications adapted 
     image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&q=80&w=800",
     date: "2026-06-04",
     time: "09:30",
-    author: { ar: "أحمد الراشدي", fr: "Ahmed Rachidi", en: "Ahmed Rachidi" },
+    author: { ar: "خولة دحو الإدريسي ", fr: "Khawla daho", en: "Khawla daho" },
     readTime: 5,
     featured: true,
     title: {
@@ -235,7 +235,7 @@ The session concluded with the drafting of a joint statement calling on conflict
     image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800",
     date: "2026-06-04",
     time: "11:15",
-    author: { ar: "سارة بنعلي", fr: "Sara Benali", en: "Sara Benali" },
+    author: { ar: "خولة دحو الإدريسي", fr: "Khawla daho", en: "Khawla daho" },
     readTime: 4,
     featured: true,
     title: {
@@ -279,7 +279,7 @@ Regarding inflation, the central bank confirmed it is on track toward the 2% tar
     image: "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&q=80&w=800",
     date: "2026-06-02",
     time: "10:00",
-    author: { ar: "ليلى المنصوري", fr: "Leila Mansouri", en: "Leila Mansouri" },
+    author: { ar: " خولة دحو الإدريسي", fr: "Khawla daho", en: "Khawla daho" },
     readTime: 4,
     featured: false,
     title: {
@@ -322,7 +322,7 @@ On the sidelines of the festival, Rabat hosted artistic workshops and conference
     image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=800",
     date: "2026-06-02",
     time: "08:20",
-    author: { ar: "كريم الزياني", fr: "Karim Ziani", en: "Karim Ziani" },
+    author: { ar: "حسام المالكي ", fr: "Houssam El Malki", en: "Houssam El Malki" },
     readTime: 5,
     featured: false,
     title: {
@@ -365,7 +365,7 @@ However, the report notes persistent challenges, particularly regional dispariti
     image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=800",
     date: "2026-06-03",
     time: "22:45",
-    author: { ar: "يوسف الحسناوي", fr: "Youssef Hassnaoui", en: "Youssef Hassnaoui" },
+    author: { ar: "حسام المالكي ", fr: "Houssam El Malki", en: "Houssam El Malki" },
     readTime: 3,
     featured: false,
     title: {
